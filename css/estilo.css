@@ -1,0 +1,106 @@
+/****
+Azul = #006680; 0,102,128
+Naranja = #FF5900; / 255,89,0
+Amarillo = #F2B80D; 242,184,13
+Gris Oscuro #333333; 51,51,51
+Gris Medio #B3B3B3;  128,128,128
+Gris Claro #808080  179,179,179
+****/
+
+header {
+    background-color: #006680;
+    min-height: 100px;
+    border-bottom: #FF5900 solid 2px;
+}
+
+header .navbar img {
+    height: 70px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#bs-example-navbar-collapse-1 a {
+    color: #ffffff;
+    line-height: 75px;
+    font-size: 1.3em;
+}
+
+#bs-example-navbar-collapse-1 a:hover, #bs-example-navbar-collapse-1 a:active, #bs-example-navbar-collapse-1 a:focus {
+    background-color: #F2B80D;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#intro {
+    background-image: url('../imagenes/fondo2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+#intro h1 {
+    font-size: 70px;
+    color: white;
+}
+
+#ova-titulo {
+    padding: 1.2em;
+}
+
+#iconos {
+    padding: 100px 0;
+}
+
+#iconos>div {
+    padding-bottom: 50px;
+}
+
+#iconos h2 {
+    font-size: 50px;
+}
+
+#iconos h3 {
+    font-size: 30px;
+}
+
+#iconos h4 {
+    font-size: 25px;
+}
+
+i.icon-sign-blank.icon-stack-base {
+    color: #006680;
+}
+
+.icon-light:hover {
+    color: #F2B80D;
+    font-size: 1.5em;
+}
+
+#imagenfinal {
+    background-image: url('../imagenes/estilografica1.jpg');
+    background-size: cover;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    color: white;
+}
+
+#imagenfinal p {
+    font-size: 40px;
+}
+#piedepagina {
+  background-color: #006680;
+  border-top: #FF5900 solid 2px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: white;
+}
+#piedepagina p{
+  margin-bottom: 0;
+  font-size: 0.7em;
+}
